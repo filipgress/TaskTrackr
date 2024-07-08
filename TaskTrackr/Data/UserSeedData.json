@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "1",
+    "UserName": "Filip Gres",
+    "Email": "filipgress@gmail.com",
+    "Password": "password"
+  },
+  {
+    "Id": "2",
+    "UserName": "Marek Lesny",
+    "Email": "mareklesny@gmail.com",
+    "Password": "password"
+  },
+  {
+    "Id": "3",
+    "UserName": "Gregor Hudak",
+    "Email": "gregorhudak@gmail.com",
+    "Password": "password"
+  },
+  {
+    "Id": "4",
+    "UserName": "Martin Dvorsky",
+    "Email": "martindvorsky@gmail.com",
+    "Password": "password"
+  },
+  {
+    "Id": "5",
+    "UserName": "Sebastian Bach",
+    "Email": "sebastianbach@gmail.com",
+    "Password": "password"
+  }
+]

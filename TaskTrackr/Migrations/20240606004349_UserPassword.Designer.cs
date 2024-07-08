@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TaskTrackr.Data;
 
@@ -11,9 +12,11 @@ using TaskTrackr.Data;
 namespace TaskTrackr.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240606004349_UserPassword")]
+    partial class UserPassword
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -295,35 +298,35 @@ namespace TaskTrackr.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 20, 448, DateTimeKind.Local).AddTicks(3114),
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 49, 444, DateTimeKind.Local).AddTicks(2024),
                             Description = "An eco-friendly transportation project promoting the use of bicycles in urban areas. UrbanCycle includes the development of bike-sharing systems, dedicated cycling lanes, and community events to encourage a shift towards sustainable transportation.",
                             Name = "UrbanCycle"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 20, 448, DateTimeKind.Local).AddTicks(3791),
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 49, 444, DateTimeKind.Local).AddTicks(2712),
                             Description = "A telehealth project that aims to provide remote healthcare services to patients in remote and underserved areas. HealthConnect uses advanced telecommunication technologies to connect patients with healthcare professionals for consultations, diagnoses, and follow-ups.",
                             Name = "Health Connect"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 20, 448, DateTimeKind.Local).AddTicks(3938),
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 49, 444, DateTimeKind.Local).AddTicks(2835),
                             Description = "A project dedicated to the conservation of endangered bird species. BioNest focuses on habitat restoration, breeding programs, and community education to protect and preserve avian biodiversity.",
                             Name = "BioNest"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 20, 448, DateTimeKind.Local).AddTicks(4014),
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 49, 444, DateTimeKind.Local).AddTicks(2987),
                             Description = "An agricultural innovation project that leverages IoT and AI to optimize farming practices. SmartFarm aims to increase crop yields, reduce waste, and promote sustainable farming through smart sensors and data analytics.",
                             Name = "Smart Farm"
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 20, 448, DateTimeKind.Local).AddTicks(4093),
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 49, 444, DateTimeKind.Local).AddTicks(3071),
                             Description = "An initiative to develop a sustainable energy solution using advanced solar technology. The project aims to create efficient solar panels that can be integrated into urban infrastructure to reduce reliance on fossil fuels.",
                             Name = "Phoenix"
                         });
@@ -577,14 +580,14 @@ namespace TaskTrackr.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "52c815d9-8bfb-4c55-b6dd-097e2b5f6a1a",
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 19, 964, DateTimeKind.Local).AddTicks(2695),
+                            ConcurrencyStamp = "82ca616b-d94f-4f98-9257-b9928a445413",
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 48, 849, DateTimeKind.Local).AddTicks(2553),
                             Email = "filipgress@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEBZdiynE4N/V3wKm5wVZH8yG4Ad0/7OP50JzdN/hg5lQqMaOLUb5KBHKVTrzUCSciw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHBE++IHjCOxjdENs2TqIubliEPU9tvYpZSHHDpvaupMyX7BOJuZlbouKNG3VoDRmw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "16621308-1b6a-4f6d-8128-9a026f1a8a06",
+                            SecurityStamp = "e7949ca4-8fc5-4497-8ed9-0e8268955caf",
                             TwoFactorEnabled = false,
                             UserName = "Filip Gres"
                         },
@@ -592,14 +595,14 @@ namespace TaskTrackr.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f541e0f7-641a-4ceb-a18c-7beb0248c5cb",
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 19, 964, DateTimeKind.Local).AddTicks(3065),
+                            ConcurrencyStamp = "23f62f34-2bd2-4998-873a-1fb065668860",
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 48, 849, DateTimeKind.Local).AddTicks(3054),
                             Email = "mareklesny@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEKUzxHTRHYpicR94PBxbG3pekzQQD5a/S/vP07bN9crj8N1ftZYpu36z8W9er0EFQw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENd9AzTpE4TFeO/Tdn6ENiyaYG2YVSXp2AzYsskJjhMmV0+VYKW9ZizxdvmxzK9GWw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "77611ccc-81bf-424f-a45e-49bfe816ae2e",
+                            SecurityStamp = "3347a7ac-f029-427a-8954-07592a3fbdac",
                             TwoFactorEnabled = false,
                             UserName = "Marek Lesny"
                         },
@@ -607,14 +610,14 @@ namespace TaskTrackr.Migrations
                         {
                             Id = "3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a8eb1ebd-0fe6-4156-968a-62f4e4b9ff6a",
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 19, 964, DateTimeKind.Local).AddTicks(3128),
+                            ConcurrencyStamp = "46f265dc-219e-4228-9ef5-1a21401efa81",
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 48, 849, DateTimeKind.Local).AddTicks(3142),
                             Email = "gregorhudak@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEJ90u5siJrEb2ZTm2UEEKeU0I6MXSTFpZ2dFG6my4GeGRpsq7/HlOqhP4eY9EXzKiQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEERHQGD24w9S4eaJrDqmSNmtuUVCE2nHiJqvl7KTMYf2LtoIyFNLQNRIwrRvyQPlbQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "c03d6956-94ff-493d-bd60-7797891426cb",
+                            SecurityStamp = "196ca891-49c7-4067-8633-40f3d9ae3544",
                             TwoFactorEnabled = false,
                             UserName = "Gregor Hudak"
                         },
@@ -622,14 +625,14 @@ namespace TaskTrackr.Migrations
                         {
                             Id = "4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1827dda1-72ac-4028-86db-df34bbbca8ae",
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 19, 964, DateTimeKind.Local).AddTicks(3181),
+                            ConcurrencyStamp = "a536e1b7-b33f-4e2d-8267-1849b5987337",
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 48, 849, DateTimeKind.Local).AddTicks(3239),
                             Email = "martindvorsky@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEP0huJMIeqMooZYJVJsNRxAtdSCOUSuy4e7eX+DbA/PeHgXxqPEtvfI46o29h8c7YA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHRzZzspfbO5GVpba3LU/KL26AYmM7pn3GJCnTWlZ0yqd2SqiAAHgZwAe2Fa1wLIng==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d1c7452b-db9b-4910-8d04-4fa6c114eb5c",
+                            SecurityStamp = "5a38a31c-2ba9-48d2-9d4f-cb742c5fb379",
                             TwoFactorEnabled = false,
                             UserName = "Martin Dvorsky"
                         },
@@ -637,14 +640,14 @@ namespace TaskTrackr.Migrations
                         {
                             Id = "5",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "60571e28-b611-4de7-96d1-c36fe5ce4f5a",
-                            CreatedAt = new DateTime(2024, 6, 6, 3, 54, 19, 964, DateTimeKind.Local).AddTicks(3251),
+                            ConcurrencyStamp = "16a94a0d-cbcf-407b-9367-427d29221ee3",
+                            CreatedAt = new DateTime(2024, 6, 6, 2, 43, 48, 849, DateTimeKind.Local).AddTicks(3331),
                             Email = "sebastianbach@gmail.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEKJtFp0sH0QMSAH9M20UkgrUbisnd674ov7MASvorBgtrlNZBL2VDjk3ehvroq3OHQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELgd3cq8aE3xUmoo6zw+pfhOHX546LKgxlQmimVwsaK7cUy7QPddL33nWhdXLW2oUg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "07404520-ac55-4de9-96c4-778d27eafb7e",
+                            SecurityStamp = "955a819c-ef6c-44d5-ae0d-53299b206711",
                             TwoFactorEnabled = false,
                             UserName = "Sebastian Bach"
                         });

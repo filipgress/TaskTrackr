@@ -1,15 +1,31 @@
-using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
+using TaskTrackr.Dtos.Account;
+using TaskTrackr.Dtos.User;
 
 namespace TaskTrackr.Models;
 
-public class User
+public sealed class User : IdentityUser
 {
-    public int Id { get; set; }
-    
-    [MaxLength(100)] [EmailAddress] public required string Email { get; set; }
-    [MaxLength(50)] public required string FirstName { get; set; }
-    [MaxLength(50)] public required string LastName { get; set; } 
-    [MaxLength(50)] [MinLength(8)] public required string Password { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
+    public DateTime? DeletedAt { get; set; }
 
-    public virtual ICollection<Project> Projects { get; set; } = [];
+    public ICollection<Project> Projects { get; set; } = [];
+    public ICollection<Task> Tasks { get; set; } = [];
+    
+    public User() {}
+
+    public User(RegisterDto registerDto)
+    {
+        Email = registerDto.Email;
+        UserName = registerDto.UserName;
+    }
+    
+    public void Update(UpdateUserDto userDto)
+    {
+        if (userDto.Email != null)
+            Email = userDto.Email;
+        
+        if (userDto.UserName != null)
+            UserName = userDto.UserName;
+    }
 }

@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "Name": "Design Prototype Solar Panel",
+    "Description": "Create a prototype for the new solar panel design incorporating the latest photovoltaic technology to enhance efficiency.",
+    "Priority": 1,
+    "Difficulty": 8,
+    "DueDate": "2024-06-28T08:42:52.7970096+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.7964664+02:00",
+    "ProjectId": 5,
+    "UserId": "1"
+  },
+  {
+    "Id": 2,
+    "Name": "Conduct Efficiency Testing",
+    "Description": "Test the prototype solar panels under various environmental conditions to measure their efficiency and durability.",
+    "Priority": 1,
+    "Difficulty": 7,
+    "DueDate": "2024-06-01T06:54:52.797254+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.7972512+02:00",
+    "ProjectId": 5,
+    "UserId": "1"
+  },
+  {
+    "Id": 3,
+    "Name": "Develop Installation Guidelines",
+    "Description": "Create a detailed guide for the installation of the new solar panels, including safety protocols and optimization tips.",
+    "Priority": 2,
+    "Difficulty": 5,
+    "DueDate": "2024-06-15T20:22:52.7972576+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.7972571+02:00",
+    "ProjectId": 5,
+    "UserId": "1"
+  },
+  {
+    "Id": 4,
+    "Name": "Optimize Energy Storage System",
+    "Description": "Enhance the energy storage system to improve the efficiency of storing and distributing the solar energy collected.",
+    "Priority": 1,
+    "Difficulty": 7,
+    "DueDate": "2024-06-23T07:52:52.7972593+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.797259+02:00",
+    "ProjectId": 5,
+    "UserId": "1"
+  },
+  {
+    "Id": 5,
+    "Name": "Implement Smart Grid Integration",
+    "Description": "Develop and implement a system for integrating the solar panels with existing smart grid technology to ensure efficient energy distribution.",
+    "Priority": 2,
+    "Difficulty": 9,
+    "DueDate": "2024-06-20T03:59:52.7972608+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.7972604+02:00",
+    "ProjectId": 5,
+    "UserId": "3"
+  },
+  {
+    "Id": 6,
+    "Name": "Secure Regulatory Approvals",
+    "Description": "Work with regulatory bodies to obtain all necessary approvals and certifications for the new solar panel technology.",
+    "Priority": 0,
+    "Difficulty": 3,
+    "DueDate": "2024-06-01T15:10:52.7972777+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.7972772+02:00",
+    "ProjectId": 5,
+    "UserId": "3"
+  },
+  {
+    "Id": 7,
+    "Name": "Create Marketing Strategy",
+    "Description": "Develop a comprehensive marketing strategy to promote the new solar panels to residential and commercial customers.",
+    "Priority": 3,
+    "Difficulty": 4,
+    "DueDate": "2024-06-30T01:45:52.797281+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.7972806+02:00",
+    "ProjectId": 5,
+    "UserId": "2"
+  },
+  {
+    "Id": 8,
+    "Name": "Establish Manufacturing Process",
+    "Description": "Design and set up a manufacturing process for mass production of the new solar panels, ensuring quality control and cost efficiency.",
+    "Priority": 0,
+    "Difficulty": 10,
+    "DueDate": "2024-06-09T06:36:52.7972831+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.797282+02:00",
+    "ProjectId": 5,
+    "UserId": "1"
+  },
+  {
+    "Id": 9,
+    "Name": "Train Installation Technicians",
+    "Description": "Develop and conduct a training program for technicians who will be installing the new solar panels, covering all technical and safety aspects.",
+    "Priority": 2,
+    "Difficulty": 6,
+    "DueDate": "2024-06-16T06:15:52.7972846+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.7972842+02:00",
+    "ProjectId": 5,
+    "UserId": "2"
+  },
+  {
+    "Id": 10,
+    "Name": "Monitor Environmental Impact",
+    "Description": "Set up a monitoring system to assess the environmental impact of the new solar panels, focusing on reducing the carbon footprint.",
+    "Priority": 3,
+    "Difficulty": 4,
+    "DueDate": "2024-06-13T23:15:52.7972861+02:00",
+    "CreatedAt": "2024-05-31T09:50:52.7972858+02:00",
+    "ProjectId": 5,
+    "UserId": "2"
+  }
+]

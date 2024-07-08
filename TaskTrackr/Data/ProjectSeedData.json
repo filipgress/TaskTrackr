@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "Name": "UrbanCycle",
+    "Description": "An eco-friendly transportation project promoting the use of bicycles in urban areas. UrbanCycle includes the development of bike-sharing systems, dedicated cycling lanes, and community events to encourage a shift towards sustainable transportation."
+  },
+  {
+    "Id": 2,
+    "Name": "Health Connect",
+    "Description": "A telehealth project that aims to provide remote healthcare services to patients in remote and underserved areas. HealthConnect uses advanced telecommunication technologies to connect patients with healthcare professionals for consultations, diagnoses, and follow-ups."
+  },
+  {
+    "Id": 3,
+    "Name": "BioNest",
+    "Description": "A project dedicated to the conservation of endangered bird species. BioNest focuses on habitat restoration, breeding programs, and community education to protect and preserve avian biodiversity."
+  },
+  {
+    "Id": 4,
+    "Name": "Smart Farm",
+    "Description": "An agricultural innovation project that leverages IoT and AI to optimize farming practices. SmartFarm aims to increase crop yields, reduce waste, and promote sustainable farming through smart sensors and data analytics."
+  },
+  {
+    "Id": 5,
+    "Name": "Phoenix",
+    "Description": "An initiative to develop a sustainable energy solution using advanced solar technology. The project aims to create efficient solar panels that can be integrated into urban infrastructure to reduce reliance on fossil fuels."
+  }
+]
